@@ -37,4 +37,33 @@ The stack is one element shorter``
 nop - doesn’t do anything
 ``Usage: nop``
 
+sub -  subtracts the top element of the stack from the second top element of the stack.
 
+div - divides the second top element of the stack by the top element of the stack.
+
+mul - multiplies the second top element of the stack with the top element of the stack.
+
+mod - computes the rest of the division of the second top element of the stack by the top element of the stack.
+
+pchar - prints the char at the top of the stack, followed by a new line.
+
+pstr -  prints the string starting at the top of the stack, followed by a new line
+
+rotl - rotates the stack to the top.
+
+rotr - rotates the stack to the bottom.
+
+stack -  sets the format of the data to a stack (LIFO). This is the default behavior of the program.
+
+queue - sets the format of the data to a queue (FIFO).
+
+bf - Brainfxck script that prints School, followed by a new line (mess up your brain huh)
+
+1001-add.bf - Add two digits given by the user.
+
+1002-mul.bf - Multiply two digits given by the user.
+	``Read the two digits from stdin, multiply them, and print the result
+The result of the multiplication will be one digit-long (<10)``
+
+1003-mul.bf - Multiply two digits given by the user. 
+	``Read the two digits from stdin, multiply them, and print the result, followed by a new line``
